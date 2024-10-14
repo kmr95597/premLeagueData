@@ -8,11 +8,11 @@ Kevin Reilly [@kmr95597](https://www.github.com/kmr95597),
 Alex Tran [@alexandretran1](https://www.github.com/alexandretran1),
 Samantha Nguyen [@clamantha](https://www.github.com/clamantha)
 
-## Data Description 
+## Project Description 
 
 The Premier League Data Model tracks essential football data over the years, focusing on team performance, wins, losses, and draws. It allows for the analysis of match details like possession, shots on goal, and attendance figures, while also considering factors such as referee assignments and their impact on games. Additionally, the model examines geographical elements, such as stadium locations, and financial aspects, including sponsorship data, to explore how these factors influence the teams success. This model provides valuable information into Premier League football.
 
-## Data Model Description
+## Data Model Explanation
 
 The Premier League Data Model mostly revolves around the relationships of Teams. Teams has the names of the Football Clubs and year established in the Premier League. The Teams table has an idetifying relationship with Games creating the teamGames entity. The TeamGames entity contains information about which two teams are playing at a given time and includes the statistics belonging to each individual game. TeamGames then has a One to Many relationship with Games which dictates the date of the game and the head referee involved in calling the game. 
 
@@ -24,7 +24,31 @@ Teams contains three more additional relationships. The first relationship is th
 
 ## Data Dictionary
 
+![team](https://github.com/user-attachments/assets/d4c529b2-1076-4c5b-b02a-fd96f599d602)
+
+![location](https://github.com/user-attachments/assets/7c129072-6e4c-42d4-bd61-aaabd1823ffb)
+
+![managers](https://github.com/user-attachments/assets/3e99e7f6-d93d-48af-93f4-2ea447dc876b)
+
+![player](https://github.com/user-attachments/assets/4fd97ee8-d8c9-4c24-b980-0072d79c3eaa)
+
+![stadium](https://github.com/user-attachments/assets/189f0864-5c75-47ea-bc16-ef5b347bc566)
+
+![attendance](https://github.com/user-attachments/assets/c7d42745-dfde-4f22-a3d3-cf8243b90a0f)
+
+![referee](https://github.com/user-attachments/assets/3cb14c8e-1c0e-4867-aacf-1487806b9fd6)
+
+![games](https://github.com/user-attachments/assets/71780570-1ce9-4f1b-95e4-cf4e22dba80f)
+
+![sponsor](https://github.com/user-attachments/assets/37ad841a-a2f2-4cd7-9c73-fb4de94aa404)
+
+![teamGame](https://github.com/user-attachments/assets/93abfca9-fb13-4bfa-990b-15591e01f834)
+
 ## Queries
+
+![data.overview](https://github.com/user-attachments/assets/958d4f54-3ec2-4a5a-a385-01580eafe82a)
+(RED FILL = PRESENT WITHIN QUERY)
+
 Complex Query #1
 
 The first query displays the average expected attendance (in the thousands) compared to the average actual attendance. This can allow the analysis of how much of a difference in expected and actual amount of presence within the game. The ticket office can use this data to track how many people are attending the games, and whether to contact the advertising team to get the word out. If actual attendance is lower than expected, income will be greatly lowered for the team, so it is important to monitor fan attendance.
