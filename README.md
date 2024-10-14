@@ -20,7 +20,7 @@ Games contains two one-to-one relationships and one one-to-many relationship. Th
 
 Teams contains three more additional relationships. The first relationship is that a team has many players, but a player only has one team. The second is that a team can have many sponsors, but a sponsor only has one team. The final relationship within teams is that a team has only one manager and a manager has only one team. The entity of players contains basic information about a specific player on a specific team including first and last name, date of birth, and position. The sponsor involved with a team has the company name alongside how much their contract is worth within their association with an organization. The final entity within the data model is the manager entity. This contains information about their first and last name as well as their date of birth.
 
-![new.data.model](https://github.com/user-attachments/assets/82f4356b-e8d1-4b76-a93b-efc141f4934e)
+![data.model](https://github.com/user-attachments/assets/09833c92-8be2-4d6b-90ab-43af02e9d771)
 
 ## Data Dictionary
 
@@ -38,7 +38,7 @@ Teams contains three more additional relationships. The first relationship is th
 
 ![referee](https://github.com/user-attachments/assets/3cb14c8e-1c0e-4867-aacf-1487806b9fd6)
 
-![games](https://github.com/user-attachments/assets/71780570-1ce9-4f1b-95e4-cf4e22dba80f)
+![games](https://github.com/user-attachments/assets/45bdab14-daf8-439d-bf1b-62cd286a16d3)
 
 ![sponsor](https://github.com/user-attachments/assets/37ad841a-a2f2-4cd7-9c73-fb4de94aa404)
 
