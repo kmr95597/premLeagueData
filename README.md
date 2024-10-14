@@ -86,7 +86,7 @@ The fifth query asks if there is a correlation between average possession time a
 
 ![query.5](https://github.com/user-attachments/assets/08e34aea-0382-44cf-8e72-e81b5775f102)
 
-## TP_Q5
+## TP_Q6
 Complex Query #6 
 
 The sixth query asks how many games were overseen by referees with more than 5 years of experience, and what is the average number of goals scored in these games. This query is important to address the integrity of the games played. The referees with more experience are being evaluated for how many goals are allowed during their games. This can be caused through off side calls and different penalty kicks. This can also affect how players play as a referee's tendencies can be learned and used to teams advantages.
