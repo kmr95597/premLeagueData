@@ -125,6 +125,7 @@ The tenth and final query of the database is what are the teams with the highest
 
 ## Database Information
 
+![all.data](https://github.com/user-attachments/assets/fa21a943-f3c9-4d2a-a18b-07b7ee6b9fc9)
 
 
 
